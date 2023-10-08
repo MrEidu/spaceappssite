@@ -5,7 +5,7 @@ import MainPage from "./pages/mainPage";
 import Miembros from "./components/miembros";
 
 function App() {
-	const [showPage, getShowPage] = useState(0);
+	const [showPage, getShowPage] = useState(1);
 	function updatePageTab(tabToRender) {
 		getShowPage(tabToRender);
 		window.scroll(0, 0);
