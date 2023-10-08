@@ -1,0 +1,42 @@
+.endPage {
+    height: auto;
+    width: 100%;
+    background-color: lightgrey;
+    color: black;
+}
+
+.endPage * {
+    color: rgb(72, 72, 72);
+}
+
+.upperEndPage {
+    display: flex;
+}
+
+.imagenEndPage {
+    height: 100px;
+}
+
+.blockEndPage {
+    padding: 10px;
+}
+
+.leftEndPage {
+    width: 40%;
+}
+
+.rightEndPage {
+    width: 350px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.rightEndPage>.imagenEndPage {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.lowerEndPage {
+    margin-top: -10px;
+    padding-bottom: 20px;
+}

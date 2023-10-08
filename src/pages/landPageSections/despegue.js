@@ -4,16 +4,16 @@ import "./despegue.css";
 export default function Despegue() {
 	const icon = [
 		1, 2, 3, 4, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 1, 1,
-		1, 1, 1, 1, 1, 2, 3, 4, 5, 1, 1,
+		1, 1, 1, 1, 1, 2, 3, 4, 5, 1, 1, 1, 2, 3, 4, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1,
 	];
 	return (
 		<div className='despegarSection'>
 			<div className='texto'>
-				<div className='despegue'>DESPEGUE</div>
+				<div className='despegue'>MISIÓN</div>
 				<br />
-				<div className='inminente'>INMINENTE</div>
+				<div className='inminente'>CUMPLIDA</div>
 				<br />
-				<div className='invitacion'>¡CHIHUAHUA TE NECESITA!</div>
+				<div className='invitacion'>¡GRACIAS POR PARTICIPAR!</div>
 			</div>
 			<div className='floatingIcons'>
 				{icon.map((icono) => {

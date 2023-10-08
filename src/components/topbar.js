@@ -10,28 +10,28 @@ const tabs = [
 		key: 1,
 	},
 	{
-		text: "Staff",
+		text: "Equipo",
 		route: "/fefef",
 		key: 2,
 	},
 	{
-		text: "¡Súmate!",
+		text: "Mentores",
 		route: "/recruit",
 		key: 3,
 	},
 	{
-		text: "Partners",
-		route: "/partners",
+		text: "Jueces",
+		route: "/recruit",
 		key: 4,
 	},
 	{
-		text: "FAQs",
-		route: "/faqs",
+		text: "Participantes",
+		route: "/recruit",
 		key: 5,
 	},
 	{
-		text: "Equipo y Contacto",
-		route: "/contact",
+		text: "Highlights",
+		route: "/recruit",
 		key: 6,
 	},
 ];
