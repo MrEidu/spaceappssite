@@ -1,12 +1,11 @@
 import React from "react";
-import { staff } from "../images/staff/staff";
 import Miembro from "./miembro";
 
-export default function Miembros() {
+export default function Miembros(props) {
 	return (
 		<div className='miembrosGrid'>
-			{staff.map((personal) => {
-				return <Miembro personal={personal} />;
+			{props.people.map((personal) => {
+				return <Miembro personal={personal} scheme={props.scheme} />;
 			})}
 		</div>
 	);

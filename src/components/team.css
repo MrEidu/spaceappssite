@@ -1,0 +1,23 @@
+.miembrosGrid {
+    background-color: #dcdcdc;
+    background-image: url("../images/staff\ texture.svg");
+    background-size: 250px;
+    width: 100%;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
+    row-gap: 20px;
+    padding-bottom: 110px;
+}
+
+.teamSAComponente {
+    height: 400px;
+    width: 300px;
+}
+
+.teamFondo {}
+
+.teamImagen {}
